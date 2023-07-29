@@ -7,10 +7,11 @@ import java.util.*;
 public class RandomCouple {
 
     private final static List<String> names = Arrays.asList(
-            "First Person", "Second Person", "Third Person", "Fourth Person", "Fifth Person");
+            "First Person", "Second Person", "Third Person", "Fourth Person", "Fifth Person", "Sixth Person",
+            "Seventh Person");
 
     private final static List<String> tasks = Arrays.asList(
-            "Task 1", "Task 2", "Task 3", "Task 4", "Task 5");
+            "Task 1", "Task 2", "Task 3", "Task 4", "Task 5", "Task 6", "Task 7");
 
     public static List<Matching> generateRandomMatching() {
         // Shuffle the tasks to ensure uniqueness
